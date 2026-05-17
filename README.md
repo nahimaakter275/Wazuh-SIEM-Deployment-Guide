@@ -35,6 +35,8 @@ This guide uses **VirtualBox** as the hypervisor. Steps may differ slightly for 
 ---
 
 ## Part 1 — Setting Up Ubuntu 22.04 in a VM
+![Ubuntu Download](screenshots/1.png)
+
 
 ### 1.1 Create a New Virtual Machine
 
