@@ -486,7 +486,7 @@ login as: nahima
 nahima@192.168.1.20's password: ••••••••
 ```
 
-<img width="1591" height="802" alt="24" src="https://github.com/user-attachments/assets/777adbdf-1374-44bb-ac8b-aca64af3f738" />
+<img width="1595" height="630" alt="image" src="https://github.com/user-attachments/assets/00c04a3e-f6ee-44c0-9f2e-bd8e79c1c88b" />
 
 
 You are now **remotely connected** to your Ubuntu server via SSH! You can run all Linux commands from your Windows machine through this terminal.
