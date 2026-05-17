@@ -192,7 +192,7 @@ Press **Enter** on **`Done`**.
 
 ### 5.4 — Proxy Configuration
 
-<img width="810" height="615" alt="8" src="https://github.com/user-attachments/assets/c00d1341-60f6-4229-bd95-5a801ab4b842" />
+<img width="811" height="624" alt="9" src="https://github.com/user-attachments/assets/db3da004-5022-4a46-a0c2-601cdc8e4ca6" />
 
 
 
@@ -203,7 +203,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.5 — Ubuntu Archive Mirror
 
-<img width="811" height="624" alt="9" src="https://github.com/user-attachments/assets/b6c038f0-69a4-474e-ba26-a898e8f3a6aa" />
+<img width="808" height="609" alt="10" src="https://github.com/user-attachments/assets/b5d90c83-fec3-4350-b2c0-39b4a79a2c4f" />
+
 
 
 
@@ -215,7 +216,7 @@ Press **Enter** on **`Done`**.
 
 ### 5.6 — Storage (Guided)
 
-<img width="808" height="609" alt="10" src="https://github.com/user-attachments/assets/18e3fa53-fd9c-4324-8540-158926253390" />
+<img width="808" height="600" alt="11" src="https://github.com/user-attachments/assets/e6101c6e-4dbe-415d-9fc2-18e547eed607" />
 
 
 - Select **(X) Use an entire disk**
@@ -227,7 +228,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.7 — Storage Summary Confirmation
 
-<img width="808" height="600" alt="11" src="https://github.com/user-attachments/assets/f1283d97-81e7-4789-b3d3-cd44a0b45574" />
+<img width="810" height="603" alt="12" src="https://github.com/user-attachments/assets/72219d18-dc62-4d85-8267-b021e9bd9e24" />
+
 
 
 
@@ -264,7 +266,7 @@ The installation will now proceed automatically (takes 5–15 minutes). When don
 
 After reboot, the server shows the login prompt. Enter your credentials.
 
-<img width="810" height="603" alt="12" src="https://github.com/user-attachments/assets/2543afbc-c876-468f-9f1a-919b8dd38a49" />
+<img width="693" height="482" alt="13" src="https://github.com/user-attachments/assets/c927b4f1-7574-440a-9e35-87bdc1dc30c5" />
 
 
 ```
@@ -282,8 +284,7 @@ You will see a system summary:
 | Memory usage | 5% |
 | IPv4 address | 192.168.1.20 |
 
-<img width="693" height="482" alt="13" src="https://github.com/user-attachments/assets/02ad164a-78ea-4a01-8aa6-c53c1297b295" />
-
+<img width="365" height="219" alt="14" src="https://github.com/user-attachments/assets/88fa29cb-1c13-4770-9923-8c934caa762b" />
 
 
 > Notice **"71 updates can be applied immediately"** — run `sudo apt update && sudo apt upgrade -y` to update the system first (optional but recommended).
@@ -300,7 +301,8 @@ Wazuh provides a single-command installer that sets up the Manager, Indexer, and
 sudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh
 ```
 
-<img width="365" height="219" alt="14" src="https://github.com/user-attachments/assets/40e2006e-1ddd-402a-9a53-9c35619160f0" />
+<img width="769" height="120" alt="15" src="https://github.com/user-attachments/assets/0b2f41c6-61f3-4c61-a549-3b178d0971a4" />
+
 
 
 - `curl -sO` — downloads the file silently and saves it with the original filename
@@ -312,7 +314,7 @@ sudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh
 sudo bash wazuh-install.sh -a
 ```
 
-<img width="769" height="120" alt="15" src="https://github.com/user-attachments/assets/f8f3b4bc-71d6-4001-b00b-ff61f3997403" />
+<img width="829" height="79" alt="16" src="https://github.com/user-attachments/assets/4aff1ae5-8359-437e-a230-396893017be1" />
 
 
 
@@ -331,8 +333,7 @@ You will see progress logs like:
 ```
 
 ### Step 7.3 — Installation Complete — Save Your Credentials!
-
-<img width="829" height="79" alt="16" src="https://github.com/user-attachments/assets/1119ad9a-76cd-4a2c-996e-208358cdaf75" />
+<img width="814" height="106" alt="17" src="https://github.com/user-attachments/assets/27620845-7f0a-46dc-9acf-ad763d9ee9db" />
 
 
 
