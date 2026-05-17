@@ -143,6 +143,8 @@ The highlighted entry will auto-execute after 22 seconds if you do nothing.
 ## 6. Step 5 — Ubuntu Installation Wizard
 
 Follow these screens in order:
+<img width="717" height="399" alt="5" src="https://github.com/user-attachments/assets/6e17876d-745e-400e-9344-5d7fd86e42e7" />
+
 
 ---
 
@@ -158,7 +160,7 @@ Follow these screens in order:
 
 ### 5.2 — Installation Type
 
-<img width="820" height="610" alt="6" src="https://github.com/user-attachments/assets/70346967-e1a3-4f9d-bdb9-ff9c2dd78a36" />
+
 
 
 
