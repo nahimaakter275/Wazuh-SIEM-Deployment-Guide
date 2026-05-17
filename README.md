@@ -161,6 +161,7 @@ Follow these screens in order:
 
 ### 5.2 — Installation Type
 
+<img width="805" height="592" alt="7" src="https://github.com/user-attachments/assets/0e97aeb6-9ea0-47e4-ae33-68b52e48dbf6" />
 
 
 
@@ -173,7 +174,8 @@ Follow these screens in order:
 
 ### 5.3 — Network Configuration
 
-<img width="805" height="592" alt="7" src="https://github.com/user-attachments/assets/7ce845e2-6540-4fbd-afa7-7b81617b2cf1" />
+<img width="810" height="615" alt="8" src="https://github.com/user-attachments/assets/c448861e-4de1-480d-87d4-5bbf711df2ff" />
+
 
 
 
