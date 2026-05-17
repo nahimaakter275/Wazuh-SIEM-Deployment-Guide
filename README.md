@@ -64,7 +64,8 @@ Go to the official Ubuntu website and download **Ubuntu Server 22.04.5 LTS**.
 
 > 🔗 **URL:** https://ubuntu.com/download/server
 
-<img width="742" height="537" alt="1" src="https://github.com/user-attachments/assets/f37c6716-c8ca-41a6-905c-4b02ba659fb9" />
+<img width="742" height="537" alt="1" src="https://github.com/user-attachments/assets/ae874b7f-c318-41a5-aaad-6adeaeb6b58f" />
+
 
 
 ### What to Download
@@ -91,7 +92,7 @@ Open **VirtualBox** and create a new VM for Ubuntu Server.
    - **Version:** `Ubuntu (64-bit)`
 3. ✅ Check **"Skip Unattended Installation"**
 
-<img width="1156" height="880" alt="2" src="https://github.com/user-attachments/assets/5af0a72c-ed11-4daa-b8bd-43fd20b53d99" />
+<img width="1156" height="880" alt="2" src="https://github.com/user-attachments/assets/a005a5e5-bdaf-4701-99be-bb7acb000dd3" />
 
 
 > ✅ **Important:** Always check "Skip Unattended Installation" so you can manually configure the server settings during install.
@@ -102,7 +103,8 @@ Open **VirtualBox** and create a new VM for Ubuntu Server.
 
 Expand the **"Hard Disk"** section in the VM creation wizard.
 
-<img width="1143" height="873" alt="3" src="https://github.com/user-attachments/assets/d04a2ce0-2c72-4f81-b2f0-eb3acf8267ab" />
+<img width="1143" height="873" alt="3" src="https://github.com/user-attachments/assets/a1023b36-da79-47e3-b8dd-fb7195d8ef96" />
+
 
 
 ### Settings:
@@ -124,6 +126,8 @@ Click **"Finish"** to create the VM.
 ---
 
 ## 5. Step 4 — Boot & Install Ubuntu Server
+<img width="1143" height="873" alt="4" src="https://github.com/user-attachments/assets/5aa736b6-30a3-44de-a45e-07cc7df034a5" />
+
 
 Start the VM. It will boot from the ISO file and show the **GNU GRUB** boot menu.
 
@@ -144,7 +148,7 @@ Follow these screens in order:
 
 ### 5.1 — Language Selection
 
-<img width="717" height="399" alt="5" src="https://github.com/user-attachments/assets/1fbcabdc-0cac-40f3-ae2c-349c64348ecd" />
+<img width="717" height="399" alt="5" src="https://github.com/user-attachments/assets/8476cafc-60e1-4e56-8c0a-640795f50f4b" />
 
 
 - Use **UP/DOWN arrow keys** to navigate
@@ -154,7 +158,8 @@ Follow these screens in order:
 
 ### 5.2 — Installation Type
 
-<img width="820" height="610" alt="6" src="https://github.com/user-attachments/assets/d0b1a0e1-95b4-4843-ae96-259223983487" />
+<img width="820" height="610" alt="6" src="https://github.com/user-attachments/assets/70346967-e1a3-4f9d-bdb9-ff9c2dd78a36" />
+
 
 
 - Select **(X) Ubuntu Server** (default, full installation)
@@ -165,7 +170,8 @@ Follow these screens in order:
 
 ### 5.3 — Network Configuration
 
-<img width="805" height="592" alt="7" src="https://github.com/user-attachments/assets/82e34aab-8537-4eaf-a74b-e5c7ece03997" />
+<img width="805" height="592" alt="7" src="https://github.com/user-attachments/assets/7ce845e2-6540-4fbd-afa7-7b81617b2cf1" />
+
 
 
 The installer detects the network interface automatically:
@@ -181,7 +187,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.4 — Proxy Configuration
 
-<img width="810" height="615" alt="8" src="https://github.com/user-attachments/assets/7af70967-37ae-486d-9718-b8fdcebed7a7" />
+<img width="810" height="615" alt="8" src="https://github.com/user-attachments/assets/c00d1341-60f6-4229-bd95-5a801ab4b842" />
+
 
 
 - Leave the **Proxy address** field **blank** (no proxy needed for home/lab networks)
@@ -191,7 +198,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.5 — Ubuntu Archive Mirror
 
-<img width="811" height="624" alt="9" src="https://github.com/user-attachments/assets/548d5eb2-f9d8-4962-8d61-817cb4f03096" />
+<img width="811" height="624" alt="9" src="https://github.com/user-attachments/assets/b6c038f0-69a4-474e-ba26-a898e8f3a6aa" />
+
 
 
 - Keep the default mirror: `http://archive.ubuntu.com/ubuntu/`
@@ -202,7 +210,7 @@ Press **Enter** on **`Done`**.
 
 ### 5.6 — Storage (Guided)
 
-<img width="808" height="609" alt="10" src="https://github.com/user-attachments/assets/c2e65cf2-3352-41d6-9885-b2a487534f1d" />
+<img width="808" height="609" alt="10" src="https://github.com/user-attachments/assets/18e3fa53-fd9c-4324-8540-158926253390" />
 
 
 - Select **(X) Use an entire disk**
@@ -214,7 +222,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.7 — Storage Summary Confirmation
 
-<img width="808" height="600" alt="11" src="https://github.com/user-attachments/assets/4bd0fd64-ab7e-4d01-b0ca-3ad2d2135059" />
+<img width="808" height="600" alt="11" src="https://github.com/user-attachments/assets/f1283d97-81e7-4789-b3d3-cd44a0b45574" />
+
 
 
 Review the partition layout:
@@ -250,7 +259,7 @@ The installation will now proceed automatically (takes 5–15 minutes). When don
 
 After reboot, the server shows the login prompt. Enter your credentials.
 
-<img width="810" height="603" alt="12" src="https://github.com/user-attachments/assets/90066a5d-64d8-4e10-a02b-405520248e39" />
+<img width="810" height="603" alt="12" src="https://github.com/user-attachments/assets/2543afbc-c876-468f-9f1a-919b8dd38a49" />
 
 
 ```
@@ -268,7 +277,8 @@ You will see a system summary:
 | Memory usage | 5% |
 | IPv4 address | 192.168.1.20 |
 
-<img width="693" height="482" alt="13" src="https://github.com/user-attachments/assets/c863e5f0-9142-4e50-a45d-915571ed8e1c" />
+<img width="693" height="482" alt="13" src="https://github.com/user-attachments/assets/02ad164a-78ea-4a01-8aa6-c53c1297b295" />
+
 
 
 > Notice **"71 updates can be applied immediately"** — run `sudo apt update && sudo apt upgrade -y` to update the system first (optional but recommended).
@@ -285,7 +295,7 @@ Wazuh provides a single-command installer that sets up the Manager, Indexer, and
 sudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh
 ```
 
-<img width="365" height="219" alt="14" src="https://github.com/user-attachments/assets/b7ab9ad2-8ed0-43d2-a3cb-0b79f8330561" />
+<img width="365" height="219" alt="14" src="https://github.com/user-attachments/assets/40e2006e-1ddd-402a-9a53-9c35619160f0" />
 
 
 - `curl -sO` — downloads the file silently and saves it with the original filename
@@ -297,7 +307,8 @@ sudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh
 sudo bash wazuh-install.sh -a
 ```
 
-<img width="769" height="120" alt="15" src="https://github.com/user-attachments/assets/db51d965-9069-490e-ac50-5f0871f50bfc" />
+<img width="769" height="120" alt="15" src="https://github.com/user-attachments/assets/f8f3b4bc-71d6-4001-b00b-ff61f3997403" />
+
 
 
 The `-a` flag means **all-in-one** — installs everything on a single server:
@@ -316,7 +327,8 @@ You will see progress logs like:
 
 ### Step 7.3 — Installation Complete — Save Your Credentials!
 
-<img width="829" height="79" alt="16" src="https://github.com/user-attachments/assets/69859924-320f-433b-8b33-025a817c9549" />
+<img width="829" height="79" alt="16" src="https://github.com/user-attachments/assets/1119ad9a-76cd-4a2c-996e-208358cdaf75" />
+
 
 
 When finished, the installer displays a **summary with login credentials**:
