@@ -64,7 +64,7 @@ Go to the official Ubuntu website and download **Ubuntu Server 22.04.5 LTS**.
 
 > 🔗 **URL:** https://ubuntu.com/download/server
 
-![Ubuntu Server Download Page](images/01-ubuntu-download.jpeg)
+![Ubuntu Server Download Page](screenshots/1.jpeg)
 
 ### What to Download
 - Select **"Ubuntu Server 22.04.5 LTS"** (or the latest 22.04.x LTS)
