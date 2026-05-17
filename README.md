@@ -672,9 +672,9 @@ These are essential Linux commands used throughout this lab and in general serve
 
 ---
 
-## 🎯 Lab Summary
 
-You have successfully:
+
+we  have successfully:
 
 1. ✅ **Downloaded** Ubuntu Server 22.04.5 LTS ISO
 2. ✅ **Created** a VirtualBox VM with 25 GB disk
