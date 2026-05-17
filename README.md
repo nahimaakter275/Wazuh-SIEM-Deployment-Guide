@@ -114,7 +114,8 @@ Expand the **"Hard Disk"** section in the VM creation wizard.
 | File Type | VDI (VirtualBox Disk Image) |
 | Pre-allocate Full Size | ❌ (leave unchecked to save host disk space) |
 
-![VirtualBox Hard Disk Settings](images/04-vbox-hard-disk2.jpeg)
+<img width="1143" height="873" alt="4" src="https://github.com/user-attachments/assets/ebb3090a-18d5-4245-8df3-96a98d805ec5" />
+
 
 > ⚠️ **Wazuh Warning:** Wazuh requires significant disk space. Use at least **25 GB**. If disk fills up, the indexer will crash with "No space left on device" errors.
 
@@ -125,7 +126,6 @@ Click **"Finish"** to create the VM.
 ## 5. Step 4 — Boot & Install Ubuntu Server
 
 Start the VM. It will boot from the ISO file and show the **GNU GRUB** boot menu.
-<img width="1143" height="873" alt="4" src="https://github.com/user-attachments/assets/ebb3090a-18d5-4245-8df3-96a98d805ec5" />
 
 
 ### Action:
