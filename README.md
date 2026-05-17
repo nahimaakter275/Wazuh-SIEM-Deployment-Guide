@@ -91,7 +91,8 @@ Open **VirtualBox** and create a new VM for Ubuntu Server.
    - **Version:** `Ubuntu (64-bit)`
 3. ✅ Check **"Skip Unattended Installation"**
 
-![VirtualBox Create VM](images/02-vbox-create-vm.jpeg)
+<img width="1156" height="880" alt="2" src="https://github.com/user-attachments/assets/5af0a72c-ed11-4daa-b8bd-43fd20b53d99" />
+
 
 > ✅ **Important:** Always check "Skip Unattended Installation" so you can manually configure the server settings during install.
 
@@ -101,7 +102,8 @@ Open **VirtualBox** and create a new VM for Ubuntu Server.
 
 Expand the **"Hard Disk"** section in the VM creation wizard.
 
-![VirtualBox Hard Disk Configuration](images/03-vbox-hard-disk.jpeg)
+<img width="1143" height="873" alt="3" src="https://github.com/user-attachments/assets/d04a2ce0-2c72-4f81-b2f0-eb3acf8267ab" />
+
 
 ### Settings:
 | Setting | Value |
@@ -123,8 +125,8 @@ Click **"Finish"** to create the VM.
 ## 5. Step 4 — Boot & Install Ubuntu Server
 
 Start the VM. It will boot from the ISO file and show the **GNU GRUB** boot menu.
+<img width="1143" height="873" alt="4" src="https://github.com/user-attachments/assets/ebb3090a-18d5-4245-8df3-96a98d805ec5" />
 
-![GRUB Boot Menu](images/05-grub-boot.jpeg)
 
 ### Action:
 - Select **"Try or Install Ubuntu Server"** (it should be highlighted by default)
@@ -142,7 +144,8 @@ Follow these screens in order:
 
 ### 5.1 — Language Selection
 
-![Language Selection](images/06-language-select.jpeg)
+<img width="717" height="399" alt="5" src="https://github.com/user-attachments/assets/1fbcabdc-0cac-40f3-ae2c-349c64348ecd" />
+
 
 - Use **UP/DOWN arrow keys** to navigate
 - Select **`English`** and press **Enter**
@@ -151,7 +154,8 @@ Follow these screens in order:
 
 ### 5.2 — Installation Type
 
-![Installation Type](images/07-install-type.jpeg)
+<img width="820" height="610" alt="6" src="https://github.com/user-attachments/assets/d0b1a0e1-95b4-4843-ae96-259223983487" />
+
 
 - Select **(X) Ubuntu Server** (default, full installation)
 - Leave "Search for third-party drivers" **unchecked**
@@ -161,7 +165,8 @@ Follow these screens in order:
 
 ### 5.3 — Network Configuration
 
-![Network Configuration](images/08-network-config.jpeg)
+<img width="805" height="592" alt="7" src="https://github.com/user-attachments/assets/82e34aab-8537-4eaf-a74b-e5c7ece03997" />
+
 
 The installer detects the network interface automatically:
 - Interface: `enp0s3` (Ethernet)
@@ -176,7 +181,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.4 — Proxy Configuration
 
-![Proxy Configuration](images/09-proxy-config.jpeg)
+<img width="810" height="615" alt="8" src="https://github.com/user-attachments/assets/7af70967-37ae-486d-9718-b8fdcebed7a7" />
+
 
 - Leave the **Proxy address** field **blank** (no proxy needed for home/lab networks)
 - Press **Enter** on **`Done`**
@@ -185,7 +191,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.5 — Ubuntu Archive Mirror
 
-![Mirror Configuration](images/10-mirror-config.jpeg)
+<img width="811" height="624" alt="9" src="https://github.com/user-attachments/assets/548d5eb2-f9d8-4962-8d61-817cb4f03096" />
+
 
 - Keep the default mirror: `http://archive.ubuntu.com/ubuntu/`
 - Wait for the mirror test to complete (it says **"This mirror location passed tests"**)
@@ -195,7 +202,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.6 — Storage (Guided)
 
-![Guided Storage](images/11-storage-guided.jpeg)
+<img width="808" height="609" alt="10" src="https://github.com/user-attachments/assets/c2e65cf2-3352-41d6-9885-b2a487534f1d" />
+
 
 - Select **(X) Use an entire disk**
 - The disk shown: `VBOX_HARDDISK_VBd6a17a9e-489257ff  local disk  23.000G`
@@ -206,7 +214,8 @@ Press **Enter** on **`Done`**.
 
 ### 5.7 — Storage Summary Confirmation
 
-![Storage Summary](images/12-storage-summary.jpeg)
+<img width="808" height="600" alt="11" src="https://github.com/user-attachments/assets/4bd0fd64-ab7e-4d01-b0ca-3ad2d2135059" />
+
 
 Review the partition layout:
 | Mount Point | Size | Type | Device Type |
@@ -241,11 +250,12 @@ The installation will now proceed automatically (takes 5–15 minutes). When don
 
 After reboot, the server shows the login prompt. Enter your credentials.
 
-![Ubuntu First Login](images/13-ubuntu-login1.jpeg)
+<img width="810" height="603" alt="12" src="https://github.com/user-attachments/assets/90066a5d-64d8-4e10-a02b-405520248e39" />
+
 
 ```
 Ubuntu 22.04.5 LTS ubuntuserver22045 tty1
-ubuntuserver22045 login: abeg
+ubuntuserver22045 login: nahima
 Password: ••••••••
 ```
 
@@ -258,7 +268,8 @@ You will see a system summary:
 | Memory usage | 5% |
 | IPv4 address | 192.168.1.20 |
 
-![Ubuntu Login Details](images/14-ubuntu-login2.png)
+<img width="693" height="482" alt="13" src="https://github.com/user-attachments/assets/c863e5f0-9142-4e50-a45d-915571ed8e1c" />
+
 
 > Notice **"71 updates can be applied immediately"** — run `sudo apt update && sudo apt upgrade -y` to update the system first (optional but recommended).
 
@@ -274,7 +285,8 @@ Wazuh provides a single-command installer that sets up the Manager, Indexer, and
 sudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh
 ```
 
-![Download Wazuh Script](images/15-wazuh-download-script.jpeg)
+<img width="365" height="219" alt="14" src="https://github.com/user-attachments/assets/b7ab9ad2-8ed0-43d2-a3cb-0b79f8330561" />
+
 
 - `curl -sO` — downloads the file silently and saves it with the original filename
 - The script will be saved as `wazuh-install.sh` in your current directory
@@ -285,7 +297,8 @@ sudo curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh
 sudo bash wazuh-install.sh -a
 ```
 
-![Wazuh Installation Starting](images/16-wazuh-install-start.jpeg)
+<img width="769" height="120" alt="15" src="https://github.com/user-attachments/assets/db51d965-9069-490e-ac50-5f0871f50bfc" />
+
 
 The `-a` flag means **all-in-one** — installs everything on a single server:
 - Wazuh Indexer (OpenSearch)
@@ -303,7 +316,8 @@ You will see progress logs like:
 
 ### Step 7.3 — Installation Complete — Save Your Credentials!
 
-![Wazuh Installation Complete](images/17-wazuh-install-done.jpeg)
+<img width="829" height="79" alt="16" src="https://github.com/user-attachments/assets/69859924-320f-433b-8b33-025a817c9549" />
+
 
 When finished, the installer displays a **summary with login credentials**:
 
@@ -327,7 +341,8 @@ Run the `ip a` command to confirm the server's IP address:
 ip a
 ```
 
-![IP Address Output](images/18-ip-address.jpeg)
+<img width="814" height="106" alt="17" src="https://github.com/user-attachments/assets/53cc4fe9-c012-486e-925d-951db322a3a6" />
+
 
 Look for the `enp0s3` interface:
 ```
@@ -350,7 +365,8 @@ https://192.168.1.20
 
 ### 10.1 — Security Warning (Expected)
 
-![Browser Security Warning](images/19-browser-warning.jpeg)
+<img width="814" height="240" alt="18" src="https://github.com/user-attachments/assets/c64f1a3c-f458-4d7a-aaef-cb2948847888" />
+
 
 Firefox shows a security warning because Wazuh uses a **self-signed certificate**. This is normal for lab environments.
 
@@ -362,7 +378,8 @@ The error code `SEC_ERROR_UNKNOWN_ISSUER` is expected — it just means the cert
 
 ### 10.2 — Wazuh Login Page
 
-![Wazuh Login Page](images/20-wazuh-login.jpeg)
+<img width="1600" height="732" alt="19" src="https://github.com/user-attachments/assets/923d9689-e199-41dc-994e-0d5c94e77536" />
+
 
 Enter your credentials from Step 7.3:
 - **Username:** `admin`
@@ -374,7 +391,8 @@ Click **"Log in"**.
 
 ### 10.3 — Wazuh Dashboard Overview
 
-![Wazuh Dashboard](images/22-wazuh-dashboard.jpeg)
+<img width="1600" height="678" alt="20" src="https://github.com/user-attachments/assets/6a605599-ca2d-4cc8-a5f2-c36f5595f449" />
+
 
 You are now inside the Wazuh security platform! The dashboard shows:
 
@@ -403,7 +421,8 @@ PuTTY is a free SSH client for Windows that lets you connect to your Ubuntu serv
 
 > 🔗 **URL:** https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-![PuTTY Download Page](images/21-putty-download.jpeg)
+<img width="1600" height="676" alt="21" src="https://github.com/user-attachments/assets/9348c1ff-2461-4fe2-8a81-f558032eea79" />
+
 
 ### Download:
 - Under **"Package files" → MSI ('Windows Installer')**
@@ -418,7 +437,8 @@ Open PuTTY from the Start Menu.
 
 ### PuTTY Configuration
 
-![PuTTY Configuration](images/23-putty-config.jpeg)
+<img width="1600" height="899" alt="22" src="https://github.com/user-attachments/assets/268ff840-22d7-4fe6-9777-802224df3a7e" />
+
 
 Fill in the settings:
 
@@ -440,14 +460,16 @@ On first connect, PuTTY shows a security alert about the server's host key. Clic
 
 ### SSH Login
 
-![PuTTY SSH Login](images/24-putty-ssh-login.jpeg)
+<img width="721" height="712" alt="23" src="https://github.com/user-attachments/assets/19964df4-a4e3-4c11-be63-bca558be825e" />
+
 
 ```
-login as: abeg
-abeg@192.168.1.20's password: ••••••••
+login as: nahima
+nahima@192.168.1.20's password: ••••••••
 ```
 
-![PuTTY Connected](images/25-putty-ssh-login2.png)
+<img width="1591" height="802" alt="24" src="https://github.com/user-attachments/assets/777adbdf-1374-44bb-ac8b-aca64af3f738" />
+
 
 You are now **remotely connected** to your Ubuntu server via SSH! You can run all Linux commands from your Windows machine through this terminal.
 
@@ -463,7 +485,8 @@ After connecting via PuTTY, verify that all three Wazuh components are running:
 systemctl status wazuh-manager --no-pager
 ```
 
-![Wazuh Manager Status](images/26-wazuh-manager-status.png)
+<img width="848" height="306" alt="25" src="https://github.com/user-attachments/assets/675225fb-0c76-4d1b-82f3-88ec03ab0794" />
+
 
 **Expected output:**
 ```
@@ -484,7 +507,8 @@ All sub-processes should be running: `wazuh-authd`, `wazuh-db`, `wazuh-execd`, `
 systemctl status wazuh-dashboard --no-pager
 ```
 
-![Wazuh Dashboard Status](images/27-wazuh-dashboard-status.jpeg)
+<img width="746" height="318" alt="26" src="https://github.com/user-attachments/assets/e748d0ff-808a-457e-8692-f9365f93e243" />
+
 
 **Expected output:**
 ```
@@ -501,7 +525,8 @@ systemctl status wazuh-dashboard --no-pager
 systemctl status wazuh-indexer --no-pager
 ```
 
-![Wazuh Indexer Status](images/28-wazuh-indexer-status.png)
+<img width="1600" height="405" alt="27" src="https://github.com/user-attachments/assets/e404eb9c-99e2-436c-9790-8bdd1168ed57" />
+
 
 **Expected output:**
 ```
