@@ -150,7 +150,8 @@ Follow these screens in order:
 
 ### 5.1 — Language Selection
 
-<img width="717" height="399" alt="5" src="https://github.com/user-attachments/assets/8476cafc-60e1-4e56-8c0a-640795f50f4b" />
+<img width="820" height="610" alt="6" src="https://github.com/user-attachments/assets/8669b1a7-ff43-4fae-a473-3d9d0f090aa7" />
+
 
 
 - Use **UP/DOWN arrow keys** to navigate
